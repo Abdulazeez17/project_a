@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Day 18</title>
+	<link rel="stylesheet" href="">
+	
+</head>
+<!-- <body style="background-color:blue" id="page">
+
+	<select id="state">
+		<option value='óyo'>Oyo</option>
+		<option value='Kogi'>Kogi</option>
+		<option value='Lagos'>Lagos</option>
+	</select>
+	
+<button onclick="
+x=document.getElementById('state').value;
+alert(' You Chose ' + x)">Check Me</button>
+
+ -->
+
+
+
+
+<form>
+	<h2>Calculator</h2>
+	<label>Number1</label>
+	<input type="text" id='num1'>
+	<label>Number2</label>
+	<input type="text" id='num2'>
+	<button type="button" onclick="Add();">Add</button>
+	<button type="button"  onclick="Sub();">Subtract</button>
+	<button type="button"  onclick="Modul();">%</button>
+
+</form>
+
+
+<script type='text/javascript'>
+
+
+function Add(){
+	var Number1=document.getElementById('num1').value;
+	var Number2=document.getElementById('num2').value;
+	total= Number(Number1) + Number(Number2);
+	alert(total);
+
+}
+
+function Sub(){
+	var Number1=document.getElementById('num1').value;
+	var Number2=document.getElementById('num2').value;
+	total= Number1 - Number2;
+	alert(total);
+
+}
+function Modul(){
+	var Number1=document.getElementById('num1').value;
+	var Number2=document.getElementById('num2').value;
+	total= Number1 % Number2;
+	alert(total);
+
+}
+
+
+// var country=prompt('Which Country are you');
+// var age=prompt('Please enter your age');
+// if(country.toLowerCase() == "nigeria" || age > 18){
+// 		alert('You can Vote');
+// }
+// else if((country.toLowerCase() != "nigeria") && (age < 18)){
+// alert('You cannot Vote');
+// }
+
+
+
+
+// var yourcolor=prompt("Kindly enter your favorite color");
+// 		if(yourcolor==""){
+// 			alert("You didnt supply anything");
+// 			document.getElementById("page").style="background-color:white";
+// 		}else{document.getElementById("page").style.backgroundColor=yourcolor;
+
+// 		}
+// 		var gender=prompt("Please Enter your gender");
+
+// 	if(gender.tolowerCase()=="female"){
+// 		alert("We have a Bag and Shoe for you");
+// 	}else if(gender.tolowerCase()=="male"){
+// 		alert("We have belt for sale");
+	
+// 	} else{
+// 		alert("You need to supply male or female ");
+// 	}
+
+
+
+
+
+// 		var gender=prompt("Please Enter your gender");
+
+// 	if((gender=="female") || (gender=="male")){
+// 		alert("We have Something for you");
+// 	}
+	
+// 	 else{
+// 		alert("Sorry, we dont have anything for you ");
+// 	}
+
+// var gender=prompt("Please Enter your gender");
+
+		
+
+// switch(gender.toLowerCase()){
+// 	case "male":
+// 		alert("we have Shoes for you");
+// 		break;
+
+// 	case "female":
+// 		alert("we have Bags for you");
+// 		break;
+
+// 	default:
+// 		alert("Sorry we cant determine your gender");
+
+// }
+
+
+		
+
+	
+
+
+
+
+
+	</script>
+</body>
+</html>;

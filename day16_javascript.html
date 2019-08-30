@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>day16 Javascript</title>
+	<link rel="stylesheet" href="">
+	<style type='text/css'>
+	</style>
+	<script type='text/javascript' language="javascript">
+		var name="Tuyo";
+		var school=" MOAT Academy for Developers ";
+		var age=20;
+		var address="2 Irewole Avenue, Opebi, Ikeja, Lagos.";
+		var other_names="Ade Sola";
+
+		document.write(other_names + " is a student of " +school);
+		alert(other_names + " is a student of " +school);
+
+		console.log (other_names + "is a student of" +school);
+
+
+		var diameter=12;
+		var the_constant=3.14;
+		var result=diameter * the_constant;
+		alert(result);
+
+		console.log (result);
+
+		window.confirm("Are you Satisfy with Our Webpage");
+
+		var yourName= window.prompt("Please Enter your Name");
+
+		if(window.confirm("Are you sure your name is "+yourName+"?"))
+
+			{alert("So, you are sure your name is "+yourName+". That's good");}
+
+			else{
+			window.prompt("Why then did you say your name was "+yourName+"?");}
+
+
+		var Name=window.prompt("Please Enter Your Name");
+		alert("Hello "+Name+" You are Welcome to our website ");
+		
+
+		
+	
+	</script>
+</head>
+
+<body onload="alert('YOU ARE WELCOME');">
+
+	<button type="button" onclick="alert('This is Our Message for You')">
+	Click me to see a message</button>
+
+	<p id="myp">This is where we are going to show content soon;
+		<form id="application-form" action='' method='POST'>
+		<input type='text' name='surname' id='surname'/>
+
+		<button id='submit-btn' type='button' onclick="alert(document.getElementById('myp').innerHTML)">Clear Form</button>
+	</form>
+	</p>
+
+
+</body>
+</html>
